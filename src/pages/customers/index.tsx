@@ -90,8 +90,8 @@ const Customers: React.FC = () => {
                   <td className="px-6 py-4">
                     <div className="flex items-center">
                       <img
-                        src={`https://ui-avatars.com/api/?name=${customer.name}&background=random`}
-                        alt={customer.name}
+                        src="https://cdn-icons-png.flaticon.com/512/4042/4042171.png"
+                        alt="Profile"
                         className="w-8 h-8 rounded-full mr-3"
                       />
                       <span className="font-medium text-gray-800">{customer.name}</span>
